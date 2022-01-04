@@ -1,0 +1,360 @@
+
+
+    body{
+        background-color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-attachment: fixed;
+    }
+    .fl{
+        float: left;
+    }
+    .fr{
+        float: right;
+    }
+    .cl{
+        clear: both;
+    }
+
+    .header{
+        width: 100%;
+        height: 70px;
+        background-color: #ffffff;
+        padding: 1px;
+        position: relative;
+    }
+    .header .headline hr{
+        width: 100%;
+        height: 2px;
+        margin-top: 46px;
+    }
+
+    .header .par {
+        margin-left: 50px;
+    }
+
+    .header .part2 ul{
+        list-style: none;
+        direction: rtl;
+    }
+
+    .header .part2 ul li{
+        padding-right: 125px;
+        margin-left: 39px;
+        float: right;
+    }
+
+    .header .part2 ul li a{
+        text-decoration: none;
+        color: #333;
+    
+    }
+
+/* srart nav */
+
+    .logo{
+            margin-top: 35px;
+            margin-left: 261px;
+            position: absolute;
+            font-size: 20px;
+
+    }
+    .logo a{
+        text-decoration: none;
+        color: #000;
+    }
+    .nav{
+        width: 85%;
+        height: 85px;
+        margin: auto;
+        padding: 0 28px 0 0;
+        overflow: auto;
+    }
+    .nav ul li {
+        display:inline-block;
+        padding: 20px 62px 0 30px;
+        float: right;
+    }
+    .nav ul li a{
+        text-decoration: none;
+        color:#3e2723;
+    }
+    .nav ul li button{
+        padding: 8px;
+        color: #fff;
+        background-color:#a5c422          ;
+        border: none;
+        border-radius: 3px;
+    }   
+    .fa-sticky-note, .fa-calendar-plus, .fa-phone-alt{
+        color: #a5c422;
+    }    
+    .fa-h-square{
+        color: green;
+    } /*  end nav  */
+
+
+/*  start slider*/
+    .slider{
+        width: 100%;
+        height: 600px;
+        margin-top: 26px ;
+        
+    }
+    .slider .parent{
+        width: 75%;
+        height: 100%;
+        margin: auto;
+        padding: 1px;
+    }
+    .slider .parent .box{
+        width: 100%;
+        height: 99%;
+        margin:0 auto;
+        background-image: url(images_1/slider3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 70%;
+        padding: 1px;
+      
+    } 
+    .slider .parent .box .slitxt{
+        text-align: center;
+        margin-top: 224px;
+    }
+    .slider .parent .box button{
+        border: none;
+        border-radius: 10px;
+        padding:15px 25px;
+        color: #fff;
+        background-color: #a5c422;
+    }    /*  end slider*/
+
+/*  start home*/
+
+    .home{
+        width: 100%;
+        height: 700px;
+        margin-top: 0;
+    }
+    .about_parent{
+        width: 75%;
+        height: 700px;
+        padding: 1px;
+        margin: auto;
+    }
+    .about{
+        margin-left: 100px;
+        width: 100%;
+        height: 83%;
+        background-image: url(images_1/about-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+        padding: 1px;
+    }
+    .about .about_describ{
+        margin-top: 140px;
+        margin-left: 50px;
+        width: 40%;
+    }
+    .about .about_describ .part{
+        width: 80%;
+    }
+    .about .about_describ .about_img img{
+        width: 43%;
+        border-radius: 50%;
+        }  
+    .about_img , .img_discrib{
+        float: left;
+    } 
+    .img_discrib{
+        float: right;
+        position: absolute;
+        left: 365px;
+        top: 1108px;
+    }  /*  end home */
+
+/*start sections our doctors */
+    .sections{
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        /* margin-top: 60px;
+        margin-left: 60px;*/        
+    }
+    .sections .sections_discrib{
+        margin-left: 200px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .sections .section{
+        width: 23%;
+        float: left;
+        /*display: inline-block;*/
+        margin-left: 115px;
+       background-color: #dddddd30;
+       border-radius: 10px;
+    }
+    .sections .section .setion_img img{
+        width: 100%;
+    }
+
+    .sections .section .cesimg_discrib{
+        line-height: 1.5;
+        margin-left: 15px;
+    }
+    .sections .section .cesimg_discrib a{
+        text-decoration: none;
+        color: #333;
+    } /* end sections our doctors */
+
+/*  start news */
+    .lastnews{
+        width: 85%;
+        height: 760px;
+        background-color: #dddddd30;
+        margin: 50px auto;
+        padding: 1px;
+    }
+    .lastnews .last_disc{
+
+        margin-left: 500px;
+    }
+    .lastnews .new_content{
+        width: 25%;
+        height: 600px;
+        background-color:#dddddd30;
+        float: left;
+       /* display: inline-block; */
+        border-radius: 20px;
+        margin: 0 66px 0 35px;
+
+    }
+    .lastnews .new_content .new_img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .lastnews .new_content .new_discrip{
+        margin-left: 15px;
+    }
+    .lastnews .new_content .new_img .part02 img{
+        border-radius: 50%;
+    }
+    .part02{
+        width: 100%;
+        padding: 1px;
+       color: #333;
+       margin-bottom: 20px;
+    }
+    .part02 img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    .part02 .im3{
+        position: absolute;
+        top: 2803px;
+        left: 233px;
+    }
+    .part02 .im03{
+        position: absolute;
+        top: 2814px;
+        left: 655px;
+    }
+    .part02 .im003{
+        position: absolute;
+        top: 2804px;
+        left: 1073px;
+    }
+    .img_discrib , .img02{
+
+        display: inline-block;
+    }
+    .part02 .img_discrib{
+        line-height: 1;
+        margin: 0  20px;
+    }   /*  end news */ 
+
+
+/*  start form */
+     .forms{
+         width: 100%;
+         height: 800px;
+         padding: 1px;
+    }
+     .form{
+         width: 40%;
+         height:100%;
+        background-image: url(images_1/appointment-image.jpg);
+        background-repeat: no-repeat;
+        margin-left: 100px;
+        background-size: cover;
+    }
+    .forms .form >h1{
+        margin-left: 650px;
+        padding-top: 50px;
+        width: 370px;
+    }
+    .forms .form table{
+        margin-left: 650px;
+        padding-top: 50px;
+        width: 370px;
+    }
+    .forms .form table button{
+        padding: 13px 166px;
+        border: none;
+        color: #ddd;
+        font-weight: bold;
+        border-radius: 15px;
+        background-color: #a5c422;
+    }
+     input , option , select{ 
+         background-color: #ddd;
+         border: none;
+         border-radius: 10px;
+        padding: 10px 20px ;
+    }
+    .forms .form table .phone_in{
+        padding: 10px 70px;
+    }   /* end form */
+
+    
+/* start footer */
+    footer{
+        width: 100%;
+        height: 350px;
+        background-color: #dddddd12;
+    }
+    footer .fotter{
+        width: 85%;
+        height: 100%;
+        margin: auto;
+        padding: 1px;
+    }
+    footer .fotter .fotter1{
+        width: 24%;
+        margin-left: 100px;
+        display: inline-block;
+
+    }
+    footer .fotter .im4{
+        position: absolute;
+        top: 4283px;
+        left: 738px;
+    }
+    footer .fotter .im04{
+        position: absolute;
+        top: 4371px;
+        left: 738px;
+    }
+    footer .fotter .fotter1 a{
+        display: inline-block;
+        text-decoration: none;
+        color: #333;
+    }
+    .fotter1 h1 , .fotter1 p , .fotter1 a{
+        margin-left: 15px;
+        margin-top: 12px;
+        color: #333;
+    }       /* end footer */ 
